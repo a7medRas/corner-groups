@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>جداول لايكي كورنر – Theeb</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-light: #fffaf3;
+      --bg-dark: #2d2d2d;
+      --text-light: #3e2723;
+      --text-dark: #eee;
+      --table-bg: #ffffffee;
+      --gold: #b28953;
+      --badge-bg: #ffeb3b;
+    }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: var(--bg-light);
+      color: var(--text-light);
+      padding: 30px;
+      direction: rtl;
+      transition: 0.3s;
+    }
+    body.dark {
+      background: var(--bg-dark);
+      color: var(--text-dark);
+    }
+    .dark table {
+      background: #3b3b3b;
+      color: #fff;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    .badge {
+      background-color: var(--badge-bg);
+      color: #000;
+      font-size: 12px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      margin-right: 5px;
+    }
+    .search-box {
+      margin: 20px auto;
+      text-align: center;
+    }
+    .search-box input {
+      padding: 10px;
+      width: 300px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+    .register-btn {
+      display: block;
+      margin: 20px auto;
+      padding: 14px 34px;
+      background: linear-gradient(to right, var(--gold), #e6c78d);
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    table {
+      width: 100%;
+      margin: 20px 0;
+      border-collapse: collapse;
+      background: var(--table-bg);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    tr:hover {
+      background: #fef3d3;
+    }
+    button {
+      background: #ffb300;
+      color: white;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 6px;
+    }
+    .dark-mode-toggle {
+      position: fixed;
+      left: 20px;
+      top: 20px;
+      background: #444;
+      color: #fff;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 1000;
+    }
+  
+<style>
+@media screen and (max-width: 768px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  table {
+    border: none;
+  }
+  thead tr {
+    display: none;
+  }
+  tr {
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+  }
+  td {
+    padding: 10px;
+    position: relative;
+    text-align: right;
+    border: none;
+  }
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    color: #888;
+  }
+}
+</style>
+</style>
+</head>
+<body>
+
+  <div class="dark-mode-toggle" onclick="toggleDark()">🌓</div>
+
+  <h1>✨ جداول مجموعات لايكي كورنر – مؤسسة Theeb</h1>
+
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfflkFqkS2DdzXXtqzi8T1LM366rnUXBoLx7lYCSH0rYBMODg/viewform" target="_blank" class="register-btn">
+    📝 تسجيل فاعليات لايكى كورنر
+  </a>
+<div class="search-box">
+  <input type="text" id="globalSearch" onkeyup="globalFilter()" placeholder="🔍 ابحث داخل جميع المجموعات...">
+</div>
+
+
+  <h2>🟡 مجموعة A</h2>
+  
+  <table id="tableA">
+    <tr><th>الاسم</th><th>Likee ID</th><th>نوع الفقرة</th><th>أيام التسجيل</th><th>رابط المذيع</th><th>الشارة</th></tr>
+    <tr><td data-label="الاسم">Deja💋ᵀᴴᴱᴱᴮ</td><td data-label="Likee ID">947393638</td><td data-label="نوع الفقرة">07:00 – 08:00</td><td data-label="أيام التسجيل"><a href="https://l.likee.video/p/nksl86"><button>رابط</button></a></td><td data-label="رابط المذيع"></td></tr>
+    <tr><td>لا يوجد حتى الان</td><td>لا يوجد حتى الان</td><td style="background:#BDBDBD; font-weight:bold;">لا يوجد</td><td style="background:#BDBDBD; font-weight:bold;">لا يوجد</td><td><button disabled>رابط</button></td><td></td></tr>
+    <tr><td data-label="الاسم">أنا💅الشيخهᵀʰᵉᵉᵇ</td><td data-label="Likee ID">58opp</td><td data-label="نوع الفقرة">09:00 – 10:00</td><td data-label="أيام التسجيل"><a href="https://l.likee.video/p/kvfB7N"><button>رابط</button></a></td><td data-label="رابط المذيع"></td></tr>
+    <tr><td data-label="الاسم">الشـيـخ ابـوعدى</td><td data-label="Likee ID">560282169</td><td data-label="نوع الفقرة">10:00 – 11:00</td><td data-label="أيام التسجيل"><a href="https://l.likee.video/p/cO5nzt"><button>رابط</button></a></td><td data-label="رابط المذيع"></td></tr>
+  </table>
+
+  <h2>🔵 مجموعة B</h2>
+  
+  <table id="tableB">
+    <tr><th>الاسم</th><th>Likee ID</th><th>نوع الفقرة</th><th>أيام التسجيل</th><th>رابط المذيع</th><th>الشارة</th></tr>
+    <tr><td data-label="الاسم">يويو .🧚ᵀʰᵉᵉᵇ</td><td data-label="Likee ID">mohamed_gamal232</td><td data-label="نوع الفقرة">07:00 – 08:00</td><td data-label="أيام التسجيل"><a href="https://l.likee.video/p/fWZts2"><button>رابط</button></a></td><td data-label="رابط المذيع"></td></tr>
+    <tr><td data-label="الاسم">طبيب القلوب</td><td data-label="Likee ID">OsamarmaDan</td><td data-label="نوع الفقرة">08:00 – 09:00</td><td data-label="أيام التسجيل"><a href="https://l.likee.video/p/lcidWP"><button>رابط</button></a></td><td data-label="رابط المذيع"></td></tr>
+    <tr><td style="background:#BDBDBD; font-weight:bold;">لا يوجد</td><td style="background:#BDBDBD; font-weight:bold;">لا يوجد</td><td style="background:#BDBDBD; font-weight:bold;">لا يوجد</td><td>09:00 – 10:00</td><td><button disabled>رابط</button></td></tr>
+    <tr><td data-label="الاسم">زينه ᵀʰᵉᵉᵇ</td><td data-label="Likee ID">F1672016</td><td data-label="نوع الفقرة">10:00 – 11:00</td><td data-label="أيام التسجيل"><a href="https://l.likee.video/p/9oAEX0"><button>رابط</button></a></td><td data-label="رابط المذيع"></td></tr>
+    <tr><td style="background:#BDBDBD; font-weight:bold;">لا يوجد</td><td style="background:#BDBDBD; font-weight:bold;">لا يوجد</td><td style="background:#BDBDBD; font-weight:bold;">لا يوجد</td><td>09:00 – 10:00</td><td><button disabled>رابط</button></td></tr>
+  </table>
+
+  <script>
+    
+    function globalFilter() {
+      const input = document.getElementById('globalSearch').value.toLowerCase();
+      const tables = ['tableA', 'tableB'];
+      tables.forEach(tableId => {
+        const rows = document.getElementById(tableId).getElementsByTagName('tr');
+        for (let i = 1; i < rows.length; i++) {
+          const text = rows[i].innerText.toLowerCase();
+          rows[i].style.display = text.includes(input) ? '' : 'none';
+        }
+      });
+    }
+
+    function toggleDark() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+
+</body>
+</html>
